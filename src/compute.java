@@ -23,11 +23,11 @@ public class compute {
         consumption1 = bmwOne.fuelConsumptionPerMonth(1220);
         consumption2 = toyotaPrius.fuelConsumptionPerMonth(1220);
 
-        //
+        //checking if the consumption values are true
         System.out.println(consumption1);
         System.out.println(consumption2);
 
-        //
+        //multiple the monthly fuel consumption with benzin or dizel price
         System.out.println("BMW One = " + consumption1 * diesel + " euro per month");
         System.out.println("Toyota Prius = " + consumption2 * benzin + " euro per month");
     }
