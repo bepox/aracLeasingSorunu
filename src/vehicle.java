@@ -3,8 +3,6 @@
  */
 public class vehicle {
     double fuelConsuptionPerHunderdKilometers;
-    //it can only be 1 or 2 to check typeOfFuel boolean
-    int x;
 
     //convert the value of X Lt/100km to X Lt/1km
     double fuelConsuptionPerOneKilometers() {
