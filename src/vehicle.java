@@ -4,8 +4,10 @@
 public class vehicle {
     double fuelConsuptionPerHunderdKilometers;
 
-    /*  Parameterized Constructor. Now when we create a new vehicle we can determined it
-        direcly inside the object.
+    /*
+        Parameterized Constructor.
+        Now when we create a new vehicle we can determined it direcly inside the object.
+
         Ex: vehicle bmwOne = new vehicle(5.6);
         vehicle toyotaPrius = new vehicle(3.8);
     */
