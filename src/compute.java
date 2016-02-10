@@ -10,13 +10,16 @@ public class compute {
         double benzin = 1.219;
 
         //Create a new vehicle
-        vehicle bmwOne = new vehicle();
-        vehicle toyotaPrius = new vehicle();
+        vehicle bmwOne = new vehicle(5.6);
+        vehicle toyotaPrius = new vehicle(3.8);
 
 
-        //give values per car
-        bmwOne.fuelConsuptionPerHunderdKilometers = 5.6;
-        toyotaPrius.fuelConsuptionPerHunderdKilometers = 3.8;
+        /*
+            give values per car!! We don't need to do it anymore because we add
+            parameterized constructor in our vechile class. Check it!!!
+            bmwOne.fuelConsuptionPerHunderdKilometers = 5.6;
+            toyotaPrius.fuelConsuptionPerHunderdKilometers = 3.8;
+        */
 
 
         // monthly giving kilometers convert to how much fuel gone
