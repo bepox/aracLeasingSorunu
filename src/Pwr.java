@@ -5,10 +5,10 @@ public class Pwr {
     double b;
     int e;
     double val;
-
-    Pwr(double b, int e){
-        this.b = b;
-        this.e = e;
+    // can be a good idea to use temp inside function
+    Pwr(double tempb, int tempe){
+        this.b = tempb;
+        this.e = tempe;
 
         val = 1;
         if (e==0) return;
